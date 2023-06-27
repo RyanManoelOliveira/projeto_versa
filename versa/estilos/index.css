@@ -1,0 +1,64 @@
+@import url("padrao.css");
+
+body{
+	background: rgb(80, 80, 80);
+}
+
+div{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+form{
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	width: calc(100% - 20px);
+	max-width: 600px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+input{
+	display: block;
+	padding: 10px 20px;
+	width: 100%;
+	margin: 0 auto;
+	border: 2px solid black;
+	outline: none;
+}
+
+input:hover, input:focus{
+	border-color: rgb(30, 60, 255);
+}
+
+input[type="submit"]{
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+input + input{
+	margin-top: 30px;
+}
+
+h3{
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 2.6em;
+	margin-top: 10px;
+}
+
+h2, h3{
+	text-align: center;
+	color: rgb(200, 200, 200);
+}
+
+span{
+	font-size: 1em;
+}

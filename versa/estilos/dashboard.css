@@ -1,0 +1,64 @@
+.doc-item{
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.doc-container{
+	display: flex;
+}
+
+.doc-id{
+	width: 40px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.doc-data{
+	width: 220px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.doc-nome{
+	width: calc(100% - 270px);
+}
+
+.doc-descricao{
+	width: 100%;
+}
+
+.doc-nome, .doc-data, .doc-id, .doc-item, .doc-descricao, .doc-delete, .doc-view, .doc-donwload{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.doc-delete{
+	margin: 0 5px;
+}
+
+.title-desc{
+	margin-top: 10px;
+}
+
+.doc-painel-controler{
+	border: 2px solid blue;
+	display: flex;
+	padding: 5px;
+	margin: 20px 10px;
+	width: calc(100% - 20px);
+}
+
+.doc-create, .doc-seach-action{
+	width: 140px;
+	text-align: center;
+	border: 1px solid blue;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.doc-seach{
+	width: calc(100% - 290px);
+	margin: 0 5px;
+	padding: 0 5px;
+}

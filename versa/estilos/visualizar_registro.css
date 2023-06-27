@@ -1,0 +1,32 @@
+@import url("padrao.css");
+
+body{
+	background: rgb(160, 160, 160);
+	padding: 10px;
+}
+
+p{
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	padding: 5px;
+	background: white;
+}
+
+hr{
+	width: calc(100% - 20px);
+	margin: 0 auto;
+	height: 5px;
+}
+
+a{
+	display: block;
+	margin-left: 10px;
+	width: calc(100% - 20px);
+	padding: 5px;
+	background: white;
+	color: blue;
+}
+
+a + a{
+	margin-top: 2px;
+}
